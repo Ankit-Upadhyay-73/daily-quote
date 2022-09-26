@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+
+<html>
+
+    <head>
+
+        <meta name="description" 
+            content="Randomised daily quotes, focused on relative date">
+
+        <link 
+            href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Cookie&family=Homemade+Apple:wght@500&display=swap" 
+            rel="stylesheet">        
+
+        <link rel="stylesheet" href="resources/index.css">
+
+        <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js" async></script>
+
+        <script defer src = "core/quotes.js" type="text/javascript"></script>
+
+        <script defer src = "index.js" type="text/javascript"></script>
+
+    </head>
+
+    <body>
+
+        <article>
+
+            <section id="quote-block">
+                <h1 id="quote">
+                    Money is a terrible master but an excellent servant.
+                </h1>
+                <cite id="author">
+                    - P.T. Barnum
+                </cite>
+            </section>
+
+            <!--
+                Pending with making quote and sharing options
+            -->
+
+            <canvas id="quote-canvas">
+
+            </canvas>
+
+            <button class="animated-button1" onclick="setupData()">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                New One
+            </button>
+
+        </article>
+
+    </body>
+
+</html>
